@@ -26,13 +26,6 @@
 
 </head>
 
-<style>
-  button[slot="hotspot-hand"]{
-    --min-hotspot-opacity: 0.5;
-    background-color: red;
-  }
-</style>
-
 <body>
   <!-- All you need to put beautiful, interactive 3D content on your site:
     src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948"
@@ -43,15 +36,13 @@
     <model-viewer src="assets/Cilindro.glb"
       ios-src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.usdz?v=1569545377878"
       poster="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717"
-      alt="A 3D model of an astronaut" shadow-intensity="1" camera-controls auto-rotate ar>
-      <button slot="ar-button" id="ar-button">
-        Iniciar!!
-      </button>
-      <button slot="hotspot-hand" data-position="-0.54 0.93 0.1" data-normal="0 0 1">
+      alt="A 3D model of an astronaut" shadow-intensity="1" camera-controls autoplay auto-rotate ar>
+      
+      <button slot="hotspot-hand" data-position="0 2.7 1.7" data-normal="0 0 1">
         <div id="annotation">Hotspot</div>
       </button>
       <div>
-        <h2>Tomar captura</h2>
+        <button>Captura</button>
       </div>
     </model-viewer>
   </div>
