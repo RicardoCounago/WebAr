@@ -34,21 +34,14 @@
   -->
   <div>
     <model-viewer src="assets/Cilindro.glb"
-      ios-src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.usdz?v=1569545377878"
+      ios-src="assets/Cilindro.usdz"
       poster="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717"
-      alt="A 3D model of an astronaut" shadow-intensity="1" camera-controls autoplay auto-rotate ar>
+      alt="A 3D model of a macaco" shadow-intensity="1" ar-scale="fixed" autoplay ar></model-viewer>
       
-      <button slot="hotspot-hand" data-position="0 2.7 1.7" data-normal="0 0 1">
-        <div id="annotation">Macaco encontrado!!<button>Botón!</button></div>
-      </button>
-      <div>
-        <button>Captura</button>
-      </div>
+      
     </model-viewer>
   </div>
   
-
-
   <!-- Loads <model-viewer> for modern browsers: -->
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
   </script>
