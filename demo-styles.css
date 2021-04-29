@@ -74,3 +74,8 @@ footer {
     border-radius: 18px;
     border: 1px solid #DADCE0;
   }
+
+  button[slot="hotspot-hand"]{
+    --min-hotspot-opacity: 0.5;
+    background-color: red;
+  }
